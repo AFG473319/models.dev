@@ -1,6 +1,6 @@
 # Source: https://tokenharbor.ai/models (retrieved 2026-10-08); USD per 1M tokens.
 base_model = "alibaba/qwen3.8-27b"
-reasoning_options = []
+reasoning_options = [{ type = "effort", values = ["none", "minimal", "low", "medium", "high"] }]
 
 [cost]
 input = 0.35
