@@ -1,7 +1,7 @@
 # Source: https://tokenharbor.ai/models (retrieved 2026-10-08); USD per 1M tokens.
+# Toggle: thinking.type = enabled|disabled (matches the native Xiaomi API)
 base_model = "xiaomi/mimo-v2.6-flash"
 name = "MiMo-V2.6-Flash (Free)"
-# Toggle: thinking.type = enabled|disabled (matches the native Xiaomi API)
 reasoning_options = [{ type = "toggle" }]
 
 [cost]
