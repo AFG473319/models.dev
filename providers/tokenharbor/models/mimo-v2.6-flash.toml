@@ -1,6 +1,9 @@
 # Source: https://tokenharbor.ai/models (retrieved 2026-10-08); USD per 1M tokens.
+# Token Harbor's live catalog lists this surface at $0.14 in / $1.28 out, above
+# Xiaomi's native $0.28 output; the cost below is Token Harbor's listed price.
 base_model = "xiaomi/mimo-v2.6-flash"
-reasoning_options = [{ type = "effort", values = ["none", "low", "medium", "high", "xhigh"] }]
+# Toggle: thinking.type = enabled|disabled (matches the native Xiaomi API)
+reasoning_options = [{ type = "toggle" }]
 
 [cost]
 input = 0.14
