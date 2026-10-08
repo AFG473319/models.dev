@@ -1,6 +1,6 @@
 # Source: https://tokenharbor.ai/models (retrieved 2026-10-08); USD per 1M tokens.
-base_model = "xiaomi/mimo-v2.6-pro"
 # Toggle: thinking.type = enabled|disabled (matches the native Xiaomi API)
+base_model = "xiaomi/mimo-v2.6-pro"
 reasoning_options = [{ type = "toggle" }]
 
 [cost]
