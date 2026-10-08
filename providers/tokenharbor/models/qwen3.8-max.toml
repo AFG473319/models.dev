@@ -1,13 +1,7 @@
 # Source: https://tokenharbor.ai/models (retrieved 2026-10-08); USD per 1M tokens.
-# Toggle: enable_thinking true|false
 # Effort: reasoning_effort = low|medium|xhigh
-# Budget: thinking_budget (integer reasoning tokens)
 base_model = "alibaba/qwen3.8-max"
-reasoning_options = [
-  { type = "toggle" },
-  { type = "effort", values = ["low", "medium", "xhigh"] },
-  { type = "budget_tokens" },
-]
+reasoning_options = [{ type = "effort", values = ["low", "medium", "xhigh"] }]
 
 [cost]
 input = 2
